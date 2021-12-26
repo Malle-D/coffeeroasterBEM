@@ -1,0 +1,138 @@
+/* fraunces-regular - latin */
+@font-face {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+   url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   src: local(''),
+   url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/fraunces-v10-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-regular - latin */
+@font-face {
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+   url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/barlow-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700 - latin */
+@font-face {
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+   url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/barlow-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+   box-sizing: border-box;
+}
+img{
+   vertical-align: middle;
+}
+body{
+   margin: 0px;
+}
+.container{
+   width: 1340px;
+   padding: 0px 30px;
+   margin: 0px auto;
+}
+
+.header__inner{
+   padding: 45px 0px;
+   display: flex;
+   align-items: center;
+}
+.header__logo{
+   margin-right: auto;
+}
+.header__logo-link:hover{
+   opacity: 0.8;
+}
+.header__nav-list{
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin: 0px;
+   padding: 0;
+}
+.header__nav-items{
+   margin-left: 2rem;
+}
+.header__nav-links{
+   text-decoration: none;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase;
+   color: #83888F;
+}
+.header__nav-links:hover{
+   color: #333D4B;
+}
+.hero__box{
+   background-image: url(../img/hero-bg.png);
+   background-repeat: no-repeat;
+   background-size: 1280px 600px;
+   background-color: #A2A2A2;
+   border-radius: 10px;
+   padding-top: 117px;
+   padding-bottom: 117px;
+   padding-left: 85px;
+   margin-bottom: 135px;
+}
+.hero__title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color:#FEFCF7;
+   margin-top: 0;
+   margin-bottom: 2rem;
+   margin-right: 700px;
+}
+.hero__info{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   opacity: 0.8;
+   margin-top: 0;
+   margin-bottom: 3rem;
+   margin-right: 700px;
+}
+.hero__link{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #FEFCF7;
+   display: inline-block;
+   padding: 16px 31px;
+   background: #0E8784;
+   border-radius: 6px;
+   text-decoration: none;
+}
+.hero__link:hover{
+   background-color: #66D2CF;
+}
